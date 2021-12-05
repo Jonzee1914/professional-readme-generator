@@ -1,3 +1,4 @@
+
 {
   "name": "static-site",
   "version": "1.0.0",
@@ -10,5 +11,13 @@
   "license": "ISC",
   "dependencies": {
     "inquirer": "^6.3.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonzee1914/professional-readme-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Jonzee1914/professional-readme-generator/issues"
+  },
+  "homepage": "https://github.com/Jonzee1914/professional-readme-generator#readme"
 }
