@@ -1,31 +1,31 @@
-# test 2
-[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+# Demo of the generator output
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 ## Description 
-another test
+This is where you would describe the project, make sure it's detailed!
 ## Table of Contents
 
 * [Usage](#usage)
-
+* [Credits](#credits)
 * [License](#license)
 * [Contributions](#contributions)
 
 * [Questions](#questions)
 ## Installation
-## Installation
-  do stuff then spin around, and jump of the roof
+  Install instructions go here
   
 ## Usage 
-to tst a second time
-## Credits
-
-## License
-  This project is covered under the Boost Software License 1.0 License.
+This is where you explain the point of the project.
 ## Contributions
-## Contributions
-  write me a check
+  You can also list out any contributors
   
-## Tests
-
+## License
+  This project is covered under the GNU General Public License v3.0 License.
+## Contributions
+  also if you want to allow contributions you can detail it here
+  
+## Testing
+  this is where you explain how to test the project
+  
 ## Questions
-Any questions, checkout my [Github profile](https://github.com/undefined)
-or email me @ [sdfdfsfsf@sdfsdffsf.com](mailto:sdfdfsfsf@sdfsdffsf.com)
+Any questions? Checkout my [Github profile](https://github.com/undefined)
+or email me @ [email@email.com](mailto:email@email.com)

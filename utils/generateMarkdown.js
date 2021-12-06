@@ -75,7 +75,7 @@ const renderCredit = creditText => {
     return ''
   } else {
     return `## Contributions
-  ${contributeText}
+  ${creditText}
   `
   }
 }
@@ -112,19 +112,15 @@ ${renderLicenseLink(data.license)}
 ${contributeCheck(data.contribution)}
 ${testCheck(data.testing)}
 * [Questions](#questions)
-## Installation
 ${renderInstall(data.installation)}
 ## Usage 
 ${data.usage}
-## Credits
 ${renderCredit(data.credit)}
 ${renderLicenseSection(data.license)}
-## Contributions
 ${renderContribute(data.contribution)}
-## Tests
 ${renderTesting(data.tests)}
 ## Questions
-Any questions, checkout my [Github profile](https://github.com/${data.github})
+Any questions? Checkout my [Github profile](https://github.com/${data.github})
 or email me @ [${data.email}](mailto:${data.email})
 `;
 }
