@@ -1,6 +1,6 @@
 // Functions to return a license badge based on which license is passed in
 // If there is no license, return an empty string
-const licenses = require("./licenses.js");
+const licenses = require("./licenseTypes.js");
 
 function renderLicenseBadge(licenses, licenseName){
   if(licenseName === "None") {
@@ -97,7 +97,7 @@ ${contributeCheck(data.contribution)}
 ${testCheck(data.testing)}
 * [Questions](#questions)
 ## Installation
-${renderInstall(data.install)}
+${renderInstall(data.installation)}
 ## Usage 
 ${data.usage}
 ## Credits
@@ -106,7 +106,7 @@ ${renderLicenseSection(data.license)}
 ## Contributions
 ${renderContribute(data.contribution)}
 ## Tests
-${renderTesting(data.testing)}
+${renderTesting(data.tests)}
 ## Questions
 Any questions, checkout my [Github profile](https://github.com/${data.github})
 or email me @ [${data.email}](mailto:${data.email})

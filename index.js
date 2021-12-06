@@ -166,12 +166,12 @@ const questions = [
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
     fs.writeFile(
-        `./generated-readme/${fileName}.md`,
+        `./dist/${fileName}.md`,
         generateMarkdown(data),
         (err) => {
           if (err) throw err;
           console.log(
-            "README file has been generated! Check out in README.md in the folder 'generated-readme' to see the output!"
+            "README file has been generated! Check out in README.md in the folder 'dist' to see the output!"
           );
         }
     );
