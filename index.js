@@ -5,14 +5,14 @@ const generateMarkdown = require("./utils/generateMarkdown.js");
 const licenses = require("./utils/licenseTypes.js");
 
 // Create an array of license types to display badges
-let licensesList = generateLicensesNameList(licenses)
+let licensesList = generateLicensesNameList(licenses);
 
 function generateLicensesNameList(licenses){
-    licensesList = []
+    licensesNameList = []
     licenses.forEach(license => {
-      licensesList.push(license.licenseName)
+      licensesNameList.push(license.licenseName)
     })
-    return licensesList
+    return licensesNameList
 }
 
 // Array of questions for user input
@@ -60,7 +60,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "Select your project Licence:",
-        choices: [...licensesNameList],
+        choices: [...licensesList],
     },
     {
         type: 'confirm',
@@ -161,6 +161,7 @@ const questions = [
         }
     },
 ];
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
