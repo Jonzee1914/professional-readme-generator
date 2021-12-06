@@ -177,7 +177,7 @@ function writeToFile(fileName, data) {
     );
 }
 
-// TODO: Create a function to initialize app
+// Function to initialize app
 function init() {
     return inquirer.prompt([...questions]);
 }
