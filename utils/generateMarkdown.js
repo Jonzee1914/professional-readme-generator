@@ -28,6 +28,13 @@ const installCheck = check => {
     return `* [Installation](#installation)`
   }
 }
+const creditCheck = check => {
+  if (!check) {
+    return '';
+  } else {
+    return `* [Credits](#credits)`
+  }
+}
 const contributeCheck = check => {
   if (!check) {
     return '';
@@ -63,6 +70,15 @@ const renderInstall = installText => {
   `
   }
 }
+const renderCredit = creditText => {
+  if (!creditText) {
+    return ''
+  } else {
+    return `## Contributions
+  ${contributeText}
+  `
+  }
+}
 const renderContribute = contributeText => {
   if (!contributeText) {
     return ''
@@ -91,7 +107,7 @@ ${data.description}
 ## Table of Contents
 ${installCheck(data.install)}
 * [Usage](#usage)
-* [Credits](#credits)
+${creditCheck(data.credit)}
 ${renderLicenseLink(data.license)}
 ${contributeCheck(data.contribution)}
 ${testCheck(data.testing)}
@@ -101,7 +117,7 @@ ${renderInstall(data.installation)}
 ## Usage 
 ${data.usage}
 ## Credits
-${data.credits}
+${renderCredit(data.credit)}
 ${renderLicenseSection(data.license)}
 ## Contributions
 ${renderContribute(data.contribution)}

@@ -1,31 +1,31 @@
-# test
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+# test 2
+[![License](https://img.shields.io/badge/License-Boost%201.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 ## Description 
-it's just a test
+another test
 ## Table of Contents
 
 * [Usage](#usage)
-* [Credits](#credits)
-* [License](#license)
 
+* [License](#license)
+* [Contributions](#contributions)
 
 * [Questions](#questions)
 ## Installation
 ## Installation
-  stand on your head
+  do stuff then spin around, and jump of the roof
   
 ## Usage 
-to do testing
+to tst a second time
 ## Credits
-undefined
-## License
-  This project is covered under the MIT License.
-## Contributions
 
-## Tests
-## Testing
-  test it, then do a dance, and test again
+## License
+  This project is covered under the Boost Software License 1.0 License.
+## Contributions
+## Contributions
+  write me a check
   
+## Tests
+
 ## Questions
 Any questions, checkout my [Github profile](https://github.com/undefined)
-or email me @ [sfdsfffsdfs@fsfdsf.com](mailto:sfdsfffsdfs@fsfdsf.com)
+or email me @ [sdfdfsfsf@sdfsdffsf.com](mailto:sdfdfsfsf@sdfsdffsf.com)
