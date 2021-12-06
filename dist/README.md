@@ -1,10 +1,10 @@
 # Demo of the generator output
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
   ## Description 
   This is where you would describe the project, make sure it's detailed!
   ## Table of Contents
   * [Usage](#usage)
-  
+  * [Installation](#installation)
   * [Credits](#credits)
   * [License](#license)
   * [Contributions](#contributions)
@@ -19,12 +19,10 @@
   You can also list out any contributors
   
   ## License
-  This project is covered under the MIT License.
+  This project is covered under the GNU Lesser General Public License v3.0 License.
   ## Contributions
   also if you want to allow contributions you can detail it here
   
-  ## Testing
-  this is where you explain how to test the project
   
   ## Questions
   Any questions? Checkout my [Github profile](https://github.com/undefined)

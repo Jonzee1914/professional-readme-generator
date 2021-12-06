@@ -106,7 +106,7 @@ function generateMarkdown(data) {
   ${data.description}
   ## Table of Contents
   * [Usage](#usage)
-  ${installCheck(data.install)}
+  ${installCheck(data.installation)}
   ${creditCheck(data.credit)}
   ${renderLicenseLink(data.license)}
   ${contributeCheck(data.contribution)}
