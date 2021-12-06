@@ -74,7 +74,7 @@ const renderCredit = creditText => {
   if (!creditText) {
     return ''
   } else {
-    return `## Contributions
+    return `## Credits
   ${creditText}
   `
   }
@@ -101,28 +101,28 @@ const renderTesting = testText => {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
-${renderLicenseBadge(licenses,data.license)}
-## Description 
-${data.description}
-## Table of Contents
-${installCheck(data.install)}
-* [Usage](#usage)
-${creditCheck(data.credit)}
-${renderLicenseLink(data.license)}
-${contributeCheck(data.contribution)}
-${testCheck(data.testing)}
-* [Questions](#questions)
-${renderInstall(data.installation)}
-## Usage 
-${data.usage}
-${renderCredit(data.credit)}
-${renderLicenseSection(data.license)}
-${renderContribute(data.contribution)}
-${renderTesting(data.tests)}
-## Questions
-Any questions? Checkout my [Github profile](https://github.com/${data.github})
-or email me @ [${data.email}](mailto:${data.email})
-`;
+  ${renderLicenseBadge(licenses,data.license)}
+  ## Description 
+  ${data.description}
+  ## Table of Contents
+  * [Usage](#usage)
+  ${installCheck(data.install)}
+  ${creditCheck(data.credit)}
+  ${renderLicenseLink(data.license)}
+  ${contributeCheck(data.contribution)}
+  ${testCheck(data.testing)}
+  * [Questions](#questions)
+  ## Usage
+  ${data.usage}
+  ${renderInstall(data.installation)} 
+  ${renderCredit(data.credit)}
+  ${renderLicenseSection(data.license)}
+  ${renderContribute(data.contribution)}
+  ${renderTesting(data.tests)}
+  ## Questions
+  Any questions? Checkout my [Github profile](https://github.com/${data.github})
+  or email me @ [${data.email}](mailto:${data.email})
+  `;
 }
 
 
