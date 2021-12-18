@@ -37,7 +37,7 @@ npm install
 ![]()
 
 ## Credits
-- [coding-boot-camp](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md)
+- [coding-boot-camp](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md) Starter code
 - [Inquirer](https://www.npmjs.com/package/inquirer) Node Package
 
 ## License
@@ -45,9 +45,9 @@ This project is covered under MIT
 
 ## Contributing
 To contribute simply:
-    1. Fork this repo
-    2. Do your thing
-    3. Make a pull request for review
+   1. Fork this repo
+   2. Do your thing
+   3. Make a pull request for review
 
 ## Questions
 Any questions? Checkout my [Github profile](https://github.com/Jonzee1914) or email me @ [jonzee1914@gmail.com](mailto:jonzee1914@gmail.com)
