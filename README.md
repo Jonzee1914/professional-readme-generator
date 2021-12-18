@@ -1,30 +1,53 @@
-# Demo of the generator output
-  [![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
-  ## Description 
-  This is where you would describe the project, make sure it's detailed!
-  ## Table of Contents
-  * [Usage](#usage)
-  * [Installation](#installation)
-  * [Credits](#credits)
-  * [License](#license)
-  * [Contributions](#contributions)
-  
-  * [Questions](#questions)
-  ## Usage
-  This is where you explain the point of the project.
-  ## Installation
-  Install instructions go here
-   
-  ## Credits
-  You can also list out any contributors
-  
-  ## License
-  This project is covered under the GNU Lesser General Public License v3.0 License.
-  ## Contributions
-  also if you want to allow contributions you can detail it here
-  
-  
-  ## Questions
-  Any questions? Checkout my [Github profile](https://github.com/undefined)
-  or email me @ [email@email.com](mailto:email@email.com)
-  
+# README Generator
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+## Description 
+An application to build professional README.md files quickly and easily using command line input with NodeJS.
+
+## Table of Contents
+
+* [Usage](#usage)
+* [Installation](#installation)
+* [Preview](#preview)
+* [Credits](#credits)
+* [License](#license)
+* [Contributing](#contributing)
+* [Questions](#questions)
+
+## Usage 
+Use this simple application to generate a README.md file from the command line by answering prompts, via NodeJS
+
+## Installation
+1. Clone this repo to your local machine
+```shell
+git clone git@github.com:Jonzee1914/professional-readme-generator.git
+```
+2. Open the repo in your preferred code editor
+3. Open a terminal and cd into the root of the repo
+4. Make sure [NodeJS](https://nodejs.org/en/) is installed the root of the repo by typing the command 
+```shell
+node -v
+``` 
+5. Install all the the Inquirer package by typing the command
+```shell
+npm install
+``` 
+
+## Preview
+![]()
+
+## Credits
+- [coding-boot-camp](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md)
+- [Inquirer](https://www.npmjs.com/package/inquirer) Node Package
+
+## License
+This project is covered under MIT
+
+## Contributing
+To contribute simply:
+    1. Fork this repo
+    2. Do your thing
+    3. Make a pull request for review
+
+## Questions
+Any questions? Checkout my [Github profile](https://github.com/Jonzee1914) or email me @ [jonzee1914@gmail.com](mailto:jonzee1914@gmail.com)
