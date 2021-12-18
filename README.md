@@ -41,7 +41,7 @@ npm install
 - [Inquirer](https://www.npmjs.com/package/inquirer) Node Package
 
 ## License
-This project is covered under MIT
+This project is covered under the MIT license 
 
 ## Contributing
 To contribute simply:
