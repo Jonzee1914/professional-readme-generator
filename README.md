@@ -34,7 +34,8 @@ npm install
 ``` 
 
 ## Preview
-![]()
+Click the gif to see a full demo of functionality  return
+[![](https://github.com/Jonzee1914/professional-readme-generator/blob/main/professional-readme-generator.gif?raw=true)](https://youtu.be/g9axCnffXTk)
 
 ## Credits
 - [coding-boot-camp](https://github.com/coding-boot-camp/potential-enigma/blob/master/readme-guide.md) Starter code
