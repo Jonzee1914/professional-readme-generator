@@ -34,7 +34,7 @@ npm install
 ``` 
 
 ## Preview
-Click the gif to see a full demo of functionality
+Click the gif to see a full demo of functionality  return
 [![](https://github.com/Jonzee1914/professional-readme-generator/blob/main/professional-readme-generator.gif?raw=true)](https://youtu.be/g9axCnffXTk)
 
 ## Credits
